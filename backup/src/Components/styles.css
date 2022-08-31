@@ -1,0 +1,63 @@
+* {
+    box-sizing : border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #555;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+
+.nav li:hover {
+    background-color: #777;
+}
+
+/* //work on coloring better */
+.mainheader {
+    background-color: aquamarine;
+}
+
+.regButton a{
+    text-decoration: none;
+}
+
+.mainPostLink a{
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #777;
+}
+
+.centerHeading {
+    text-align:center;
+}
